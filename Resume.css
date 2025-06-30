@@ -1,0 +1,58 @@
+/*classes*/
+
+.schools{
+    border-style: outset;
+    border-width: 5px;
+}
+
+.course{
+    margin-top: 25px;
+    border-style: outset;
+    border-width: 5px;
+}
+
+
+.skills{
+    margin-top: 25px;
+    border-style: outset;
+    border-width: 5px;
+}
+
+
+.work{
+    margin-top: 25px;
+    border-style: outset;
+    border-width: 5px;
+}
+
+.add{
+    margin-top: 25px;
+    border-style: outset;
+    border-width: 5px;
+}
+
+.places{
+    font-size: 15px;
+    font-style: italic;
+
+}
+
+.links{
+    color: black;
+    text-decoration: none;
+
+}
+.top{
+    text-align: center;
+}
+/*ids*/
+
+
+
+
+/**/
+h3{
+    font-size: 25px;
+
+}
+
