@@ -5,8 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "chrome",
+            "name": "Launch Chrome",
             "request": "launch",
+             "type": "pwa-chrome",
+            "timeout": 20000,
+            "url": "http://localhost:3000",
+           // "type": "chrome",
+            //"request": "launch",
             "name": "Open Resume.html",
             "file": "/Users/ibrahimkamagate/IbrahimResume/Resume.html"
         }

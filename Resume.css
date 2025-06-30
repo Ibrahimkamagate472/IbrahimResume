@@ -1,3 +1,32 @@
+/*Header*/
+
+
+/*FOR EMAILS set the color to black and remove the the underline*/
+.links{
+    color: black;
+    text-decoration: none;
+
+}
+
+/*FOR EMAILS changes the color and size when the user hovers over it*/
+.links:hover{
+    font-size: 14px;
+    color:grey;
+}
+
+/*FOR ICONS set the color to black and remove the the underline*/
+
+/*FOR ICONS changes the color and size when the user hovers over it*/
+
+/*aligns everything in the middle */
+.top{
+    text-align: center;
+}
+
+
+
+
+
 /*classes*/
 
 .schools{
@@ -37,14 +66,10 @@
 
 }
 
-.links{
-    color: black;
-    text-decoration: none;
 
-}
-.top{
-    text-align: center;
-}
+
+
+
 /*ids*/
 
 
