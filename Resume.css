@@ -38,6 +38,7 @@
 
 /*for the all the sub category*/
 .subtitle{
+    font-size: 25px;
     font-family:'tinos', 'sans-serif', 'Times New Roman';
     text-decoration:underline;
     
@@ -47,30 +48,46 @@
     padding-left: 15px;
     padding-right: 15px;
 }
-/*remove the padding from the bottom of the school 
+/*remove the padding from the bottom of the locations 
 so the address is closer*/
-.school{
+.places{
     margin-bottom: 0px;
+    font-size: 20px;
+    font-style: italic;
 }
 
 /*remove the padding from the top of the address so it can be closer to the school
 add padding to the bottom of the address giving it a little space=*/
 .address{
-    margin-top: 0px;
+    margin-top: 2px;
     margin-bottom: 0px;
-    padding: 10px;
+    padding-left: 10px;
 }
 
 /*************RELEVANT COURSEWORK**************/
+
+/*adds padding to the overall course div block*/
 .course{
     padding-left: 15px;
     padding-right: 15px;
 }
 
+/*adds padding to the list of courses so it is in a little paragraph*/
+.classHistory{
+    padding-left: 20px;
+    padding-right: 400px;
+}
 
 /*************SKILLS**************/
 .skills{
+    padding-left: 15px;
+    padding-right: 15px;
 
+}
+
+.skillsList{
+    padding-left: 20px;
+    padding-right: 400px;
 }
 
 
@@ -78,26 +95,26 @@ add padding to the bottom of the address giving it a little space=*/
 
 /*************WORK EXPERIENCE**************/
 .work{
-    margin-top: 25px;
-    border-style: outset;
-    border-width: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 
 /*************ADDITIONAL**************/
 .add{
-    margin-top: 25px;
-    border-style: outset;
-    border-width: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-/*classes*/
-
-
-
-
-h3{
-    font-size: 25px;
-
+/*FOR EVERRYTHING*/
+p{
+    font-family:'tinos', 'sans-serif', 'Times New Roman';
 }
+
+ul{
+    font-family:'tinos', 'sans-serif', 'Times New Roman';
+    
+}
+
+
 
