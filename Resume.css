@@ -1,4 +1,11 @@
-/*Header*/
+/*************Header**************/
+
+/*aligns everything in the middle and the hight of the div*/
+.top{
+    text-align: center;
+    height: 150px;
+    font-family:'tinos', 'sans-serif', 'Times New Roman';
+}
 
 
 /*FOR EMAILS set the color to black and remove the the underline*/
@@ -15,67 +22,80 @@
 }
 
 /*FOR ICONS set the color to black and remove the the underline*/
+.icon{
+    color: black;
+    text-decoration: none;
+}
 
 /*FOR ICONS changes the color and size when the user hovers over it*/
-
-/*aligns everything in the middle */
-.top{
-    text-align: center;
+.icon:hover{
+    font-size: 17px;
+    color: grey;
 }
 
 
+/*************EDUCATION**************/
 
-
-
-/*classes*/
-
-.schools{
-    border-style: outset;
-    border-width: 5px;
+/*for the all the sub category*/
+.subtitle{
+    font-family:'tinos', 'sans-serif', 'Times New Roman';
+    text-decoration:underline;
+    
+}
+/**/
+.info{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/*remove the padding from the bottom of the school 
+so the address is closer*/
+.school{
+    margin-bottom: 0px;
 }
 
+/*remove the padding from the top of the address so it can be closer to the school
+add padding to the bottom of the address giving it a little space=*/
+.address{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+/*************RELEVANT COURSEWORK**************/
 .course{
-    margin-top: 25px;
-    border-style: outset;
-    border-width: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 
+/*************SKILLS**************/
 .skills{
-    margin-top: 25px;
-    border-style: outset;
-    border-width: 5px;
+
 }
 
 
+
+
+/*************WORK EXPERIENCE**************/
 .work{
     margin-top: 25px;
     border-style: outset;
     border-width: 5px;
 }
 
+
+/*************ADDITIONAL**************/
 .add{
     margin-top: 25px;
     border-style: outset;
     border-width: 5px;
 }
 
-.places{
-    font-size: 15px;
-    font-style: italic;
-
-}
+/*classes*/
 
 
 
 
-
-/*ids*/
-
-
-
-
-/**/
 h3{
     font-size: 25px;
 
