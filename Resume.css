@@ -7,6 +7,10 @@
     font-family:'tinos', 'sans-serif', 'Times New Roman';
 }
 
+.number{
+    color:black;
+    text-decoration: none;
+}
 
 /*FOR EMAILS set the color to black and remove the the underline*/
 .links{
