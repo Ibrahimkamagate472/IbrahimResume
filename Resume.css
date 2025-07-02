@@ -27,6 +27,8 @@
 
 /*FOR ICONS set the color to black and remove the the underline*/
 .icon{
+    padding-right: 5px;
+    padding-bottom: 5px;
     color: black;
     text-decoration: none;
 }
