@@ -10,6 +10,13 @@
 .number{
     color:black;
     text-decoration: none;
+
+}
+.number:link{
+    color: black;
+}
+.number:visited{
+    color:black;
 }
 
 /*FOR EMAILS set the color to black and remove the the underline*/
@@ -128,4 +135,3 @@ ul{
 footer{
     text-align: center;
 }
-
