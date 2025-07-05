@@ -1,35 +1,23 @@
-/*************Header**************/
-
-/*aligns everything in the middle and the hight of the div*/
-.top{
-    text-align: center;
-    height: 150px;
+body{
     font-family:'tinos', 'sans-serif', 'Times New Roman';
 }
 
-.number{
+/*************Header/FOOTER**************/
+
+/*align the navagation*/
+nav{
+    text-align: center;
+}
+
+/*set the color for the emails and the hover action*/
+.contact{
     color:black;
     text-decoration: none;
-
-}
-.number:link{
-    color: black;
-}
-.number:visited{
-    color:black;
 }
 
-/*FOR EMAILS set the color to black and remove the the underline*/
-.links{
-    color: black;
-    text-decoration: none;
-
-}
-
-/*FOR EMAILS changes the color and size when the user hovers over it*/
-.links:hover{
-    font-size: 14px;
+.contact:hover{
     color:grey;
+    font-size: 16.5px;
 }
 
 /*FOR ICONS set the color to black and remove the the underline*/
@@ -46,27 +34,23 @@
     color: grey;
 }
 
-
-/*************EDUCATION**************/
-
 /*for the all the sub category*/
 .subtitle{
-    font-size: 25px;
-    font-family:'tinos', 'sans-serif', 'Times New Roman';
     text-decoration:underline;
     
 }
-/**/
+
+/*adding padding for the sub catgorys*/
 .info{
     padding-left: 15px;
     padding-right: 15px;
 }
+
 /*remove the padding from the bottom of the locations 
 so the address is closer*/
 .places{
     margin-bottom: 0px;
     font-size: 20px;
-    font-style: italic;
 }
 
 /*remove the padding from the top of the address so it can be closer to the school
@@ -77,61 +61,8 @@ add padding to the bottom of the address giving it a little space=*/
     padding-left: 10px;
 }
 
-/*************RELEVANT COURSEWORK**************/
-
-/*adds padding to the overall course div block*/
-.course{
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-/*adds padding to the list of courses so it is in a little paragraph*/
-.classHistory{
+/*adds padding to the list of courses and skills so it is in a little paragraph*/
+.historySkills{
     padding-left: 20px;
     padding-right: 400px;
-}
-
-/*************SKILLS**************/
-.skills{
-    padding-left: 15px;
-    padding-right: 15px;
-
-}
-
-.skillsList{
-    padding-left: 20px;
-    padding-right: 400px;
-}
-
-
-
-
-/*************WORK EXPERIENCE**************/
-.work{
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-
-/*************ADDITIONAL**************/
-.add{
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-/*FOR EVERRYTHING*/
-p{
-    font-family:'tinos', 'sans-serif', 'Times New Roman';
-}
-
-ul{
-    font-family:'tinos', 'sans-serif', 'Times New Roman';
-    
-}
-
-
-/*FOOTER*/
-
-footer{
-    text-align: center;
 }

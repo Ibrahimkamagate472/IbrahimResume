@@ -1,149 +1,147 @@
 <!DOCTYPE html>
 <hmtl lang = "en">
 <!--Header-->
-<head>
-    <meta charset = "UTF-8">
-    <meta name="description" content = "Hi, welcome to my website. This website is for my resume, Ibrahim Kamagate
-        Listed you can see my schooling and work experince. Feel free to contact me with the information provided.">
-    <meta description = "keywords" content="computer science, coding, devloper, web dev, cs">
-    <script src="https://kit.fontawesome.com/0401e8b0f7.js" crossorigin="anonymous"></script>
+    <head>
+        <meta charset = "UTF-8">
 
-    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <!--fonts that are being used-->
+        <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    
+        <!--style sheets that are being used-->
+        <link rel = "stylesheet" href = "Resume.css">
 
+    <!--description of the page -->
+        <meta name="description" content = "Hi, welcome to my website. This website is for my resume, Ibrahim Kamagate
+            Listed you can see my schooling and work experince. Feel free to contact me with the information provided.">
+        <meta description = "keywords" content="computer science, coding, devloper, web dev, cs">
+        <script src="https://kit.fontawesome.com/0401e8b0f7.js" crossorigin="anonymous"></script>
 
-    <div class = "top">
         <title>Ibrahim Kamagate Resume</title>
-        <h1>Ibrahim Kamagate </h1>
-        <h5>776 Elton Ave A1 • Bronx • NY • 10451 </h5>
+    </head>
 
-        <h5>
-            <span class = "number">Tel. 347-884-3025</span> • <a href = "mailto:ibrahim.kamagate.code@gmail.com" title = "Email" class = "links">ibrahim.kamagate.code@gmail.com</a> • 
-            <a href = "mailto:ibrahim.kamagate472@myhunter.cuny.edu" title = "links" class = "links">ibrahim.kamagate472@myhunter.cuny.edu</a>
-        </h5>
+    <body>
+        <header>
+            <nav>
+                <h1>Ibrahim Kamagate </h1>
+                <address>776 Elton Ave A1 • Bronx • NY • 10451
+                    <p><a href = "tel:3478843025" title = "Call" class = "contact">Tel. 347-884-3025</a> • 
+                        <a href = "mailto:ibrahim.kamagate.code@gmail.com" title = "Email" class = "contact">ibrahim.kamagate.code@gmail.com</a> • 
+                        <a href = "mailto:ibrahim.kamagate472@myhunter.cuny.edu" title = "Email" class = "contact">ibrahim.kamagate472@myhunter.cuny.edu</a>
+                    </p>
+                    
+                    <!--linkedin icon-->
+                    <a href = "https://www.linkedin.com/in/ibrahim-kamagate-b36422264/" target = "_blank" class ="icon" title = "linkedin">
+                        <i class="fa-brands fa-linkedin fa-xl" ></i>
+                    </a>
+                    
+                    <!--githu icon-->
+                    <a href = "https://github.com/Ibrahimkamagate472?tab=repositories" target = "_blank" class = "icon" title = "Github">
+                        <i class="fa-brands fa-github fa-xl"></i>
+                    </a>
+                </address>
+                <hr/>
+            </nav>
 
-            <!--Linkedin profile-->
-        <a href = "https://www.linkedin.com/in/ibrahim-kamagate-b36422264/" target = "_blank" class ="icon" title = "linkedin">
-            <i class="fa-brands fa-linkedin fa-xl" ></i>
-        </a>
+        </header>
 
-        <!--github profile-->
-        <a href = "https://github.com/Ibrahimkamagate472?tab=repositories" target = "_blank" class = "icon" title = "Github">
-            <i class="fa-brands fa-github fa-xl"></i>
-        </a>
-    </div>
-    <link rel = "stylesheet" href = "Resume.css">
-    <hr/>
-</head>
+        <!--section for schooling history-->
+        <div class = "info">
+            <h2 class = "subtitle">EDUCATION</h2>
 
+            <!--the school-->
+            <p class = "places">Hunter College</p>
 
-<!--Body-->
-<body>
+            <!--the address-->
+            <address class = "address">695 Park Ave, New York, NY 10065</address>
+            <div style="display: flex; justify-content: space-between; padding: 0 10px; max-width: auto;">
+                <span>BA Computer Science</span>
+                <span style = "padding-right: 10px;">Aug. 2024 - Jul. 2026</span>
+            </div>
 
-    <!--This section is for my schooling-->
-    <div class = "info">
-        <h3 class = "subtitle">EDUCATION</h3>
-        <!--Second school-->
-        <p class = "places">Hunter College</p>
-        <address class = "address">695 Park Ave, New York, NY 10065</address>
-        <div style="display: flex; justify-content: space-between; padding: 0 10px; max-width: auto;">
-            <span>BA Computer Science</span>
-            <span style = "padding-right: 10px;">Aug. 2024 - Jul. 2026</span>
+            <!--the school-->
+            <p class = "places">Eugenio María de Hostos Community College and City College</p>
+            <!--the address-->
+            <address class = "address">500 Grand Concourse, Bronx, NY 10451</address>
+            <div style="display: flex; justify-content: space-between; padding: 0 10px; max-width: auto;">
+                <span>AAS Game Design</span>
+                <span>Aug. 2019 - Jan. 2021</span>
+            </div>
         </div>
 
-        <!-- First school-->
-        <p class = "places">Eugenio María de Hostos Community College and City College</p>
-        <address class = "address">500 Grand Concourse, Bronx, NY 10451</address>
-        <div style="display: flex; justify-content: space-between; padding: 0 10px; max-width: auto;">
-            <span>AAS Game Design</span>
-            <span>Aug. 2019 - Jan. 2021</span>
+        <!--section for relevant coursewrok-->
+        <div class = "info">
+            <h2 class = "subtitle">RELEVANT COURSEWORK</h2>
+            <p class = "historySkills">Object Oriented Programming, Software Analysis and Design II, Software Analysis and Design I, Computer Architecture I, Discrete Structures,
+                Intro to Computer Science, Web Design I, & Technical Writing</p>
         </div>
 
-
-        <!--High school-->
-        <p class = "places">The Laboratory School of Finance and Technology</p>
-        <address class = "address">E 145th St, Bronx, NY 10454</address>
-        <div style="display: flex; justify-content: space-between; padding: 0 10px; max-width: auto;">
-            <span>High School Diploma</span>
-            <span>Sep. 2013 - Jun. 2017</span>
-        </div>
-    </div>
-
-
-
-
-     <!--This section if for my course work-->
-    <div class = "course">
-        <h3 class = "subtitle">RELEVANT COURSEWORK</h3>
-        <p class = "classHistory">Object Oriented Programming, Software Analysis and Design II, Software Analysis and Design I, Computer Architecture I, Discrete Structures,
-            Intro to Computer Science, Web Design I, & Technical Writing</p>
-    </div>
-
-
-
-    <!--This section is for my skills-->
-    <div class = "skills">
-        <h3 class = "subtitle">SKILLS</h3>
-        <p class = "skillsList">C++, Python, HTML, CSS, JavaScript, Mircosoft 365</p>
-    </div>
-
-    <!--This section is for my work experince-->
-    <div class = "work">
-        <h3 class = "subtitle">WORK EXPERIENCE</h3>    
-        <!-- Amazon-->
-        <p class = "places">Amazon</p>
-        <address class = "address">1080 Leggett Ave, Bronx, NY, 10474</address>
-        <div style="display: flex; justify-content: space-between; padding: 0 10px; max-width: auto;">
-            <span>Batcher/Picker</span>
-            <span style = "padding-right: 10px;">Feb. 2021 - Current</span>
+        <!--section for skills-->
+        <div class = "info">
+            <h2 class = "subtitle">SKILLS</h2>
+            <p class = "historySkills">C++, Python, HTML, CSS, JavaScript, Mircosoft 365</p>
         </div>
 
+        <!--section for work experince-->
+        <div class = "info">
+            <h2 class = "subtitle">WORK EXPERIENCE</h2>    
 
-        <!--Airport job-->
-        <p class = "places">SSP America</p>
-        <address class = "address">LaGuardia Rd, Eatst Elmhurst, NY, 11371</address>
-        <div style="display: flex; justify-content: space-between; padding: 0 10px; max-width: auto;">
-            <span>Cashier</span>
-            <span style = "padding-right: 10px;">Sep. 2019 - Mar. 2020</span>
+            <!--amazon job-->
+            <p class = "places">Amazon</p>
+            <address class = "address">1080 Leggett Ave, Bronx, NY, 10474</address>
+            <div style="display: flex; justify-content: space-between; padding: 0 10px; max-width: auto;">
+                <span>Batcher/Picker</span>
+                <span style = "padding-right: 10px;">Feb. 2021 - Current</span>
+            </div>
+
+            <!--airport job-->
+            <p class = "places">SSP America</p>
+            <address class = "address">LaGuardia Rd, Eatst Elmhurst, NY, 11371</address>
+            <div style="display: flex; justify-content: space-between; padding: 0 10px; max-width: auto;">
+                <span>Cashier</span>
+                <span style = "padding-right: 10px;">Sep. 2019 - Mar. 2020</span>
+            </div>
+
+            <!--mcdoncalds job-->
+            <p class = "places">McDoncald's</p>
+            <address class = "address">Manhattan, NY</address>
+            <div style="display: flex; justify-content: space-between; padding: 0 10px; max-width: auto;">
+                <span>Cashier</span>
+                <span style = "padding-right: 10px;">Jun 2017-2018</span>
+            </div>
+
         </div>
 
-        <!-- Mcdonalds-->
-        <p class = "places">McDoncald's</p>
-        <address class = "address">Manhattan, NY</address>
-        <div style="display: flex; justify-content: space-between; padding: 0 10px; max-width: auto;">
-            <span>Cashier</span>
-            <span style = "padding-right: 10px;">Jun 2017-2018</span>
+        <!--section for additional stuff-->
+        <div class = "info">
+            <h2 class = "subtitle">ADDITIONAL</h2>
+            <ul>
+                <li>IEEE Computer Society</li>
+                <li>Hunter Computer Science Club</li>
+                <li>Hunter Woman in Computer Science Club</li>
+            </ul>
         </div>
-    </div>
 
-    <!--this is a test-->
+        <footer>
+            <hr/>
+            <nav>
+                <address>
+                    <p><a href = "tel:3478843025" title = "Call" class = "contact">Tel. 347-884-3025</a> • 
+                        <a href = "mailto:ibrahim.kamagate.code@gmail.com" title = "Email" class = "contact">ibrahim.kamagate.code@gmail.com</a> • 
+                        <a href = "mailto:ibrahim.kamagate472@myhunter.cuny.edu" title = "Email" class = "contact">ibrahim.kamagate472@myhunter.cuny.edu</a>
+                    </p>
+                    
+                    <!--linkedin icon-->
+                    <a href = "https://www.linkedin.com/in/ibrahim-kamagate-b36422264/" target = "_blank" class ="icon" title = "linkedin">
+                        <i class="fa-brands fa-linkedin fa-xl" ></i>
+                    </a>
+                    
+                    <!--githu icon-->
+                    <a href = "https://github.com/Ibrahimkamagate472?tab=repositories" target = "_blank" class = "icon" title = "Github">
+                        <i class="fa-brands fa-github fa-xl"></i>
+                    </a>
+                </address>
+            </nav>
+        </footer>
 
-    <!--This is for additional info-->
-    <div class = "add">
-        <h3 class = "subtitle">ADDITIONAL</h3>
-        <ul>
-            <li>IEEE Computer Society</li>
-            <li>Hunter Computer Science Club</li>
-            <li>Hunter Woman in Computer Science Club</li>
-        </ul>
-    </div>
-</body>
-
-<footer>
-    <hr/>
-    <h5>
-        <span class = "number">Tel. 347-884-3025</span> • <a href = "mailto:ibrahim.kamagate.code@gmail.com" title = "Email" class = "links">ibrahim.kamagate.code@gmail.com</a> • 
-        <a href = "mailto:ibrahim.kamagate472@myhunter.cuny.edu" title = "links" class = "links">ibrahim.kamagate472@myhunter.cuny.edu</a>
-    </h5>
-     <!--Linkedin profile-->
-     <a href = "https://www.linkedin.com/in/ibrahim-kamagate-b36422264/" target = "_blank" class ="icon" title = "linkedin">
-        <i class="fa-brands fa-linkedin fa-xl" ></i>
-    </a>
-
-    <!--github profile-->
-    <a href = "https://github.com/Ibrahimkamagate472?tab=repositories" target = "_blank" class = "icon" title = "Github">
-        <i class="fa-brands fa-github fa-xl"></i>
-    </a>
-
-</footer>
-
+    </body>
 </hmtl>
